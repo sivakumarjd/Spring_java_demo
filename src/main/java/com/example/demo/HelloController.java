@@ -9,6 +9,6 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String sayHello(@RequestParam(value = "dark", defaultValue = "false") boolean darkMode) {
-        return darkMode ? "<h1 style='color:black;background:black'>Hello, Dark World1!</h1>" : "Hello, World1!";
+        return darkMode ? "<h1 style='color:black;background:black'>Dark World!</h1>" : "Landed here-- Develop your contenet to be displayed in web page";
     }
 }
